@@ -9,7 +9,7 @@ namespace Lab3App{
 
     public virtual void UpdateTotalScore(){
         Board.TotalScore += Score;
-        Console.WriteLine($"Total Score is updated to {Board.TotalScore}")
+        Console.WriteLine($"Total Score is updated to {Board.TotalScore}");
     }
 
     public override void AddMe(List<Collectable> collected){
